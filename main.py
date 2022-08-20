@@ -1,8 +1,6 @@
 from re import L
 import secrets
 
-from soupsieve import select
-
 chars = 'qwertyuiopasdfghjklzxcvbnm1234567890`~!@#$%^&*()_+-=[]\;,./<>?:"{}|'
 
 def create(number_of_passwords, password_length):
